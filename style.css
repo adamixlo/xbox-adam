@@ -1,0 +1,1380 @@
+@font-face {
+    font-family: myfont;
+    src: url("segoe-pro-black.ttf");
+}
+
+body{
+    font-family:"Segoe UI";
+    margin: 0;
+
+}
+
+.header{
+    background-color: white;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.header-list{
+     display: flex;
+     flex-direction: row ;
+     justify-content: center;
+     gap: 40px;
+     padding-left: 0;
+     font-size:10px;
+
+ }
+
+.account-icon img{
+    width: 25px;
+}
+.shopping-cart img{
+    width: 20px;
+}
+.search-img img{
+    width: 20px;
+}
+.header-xbox img{
+    width: 80px;
+}
+
+.microsoft-img{
+    margin-left: 30px;
+}
+.header-microsoft-p{
+    font-size: 20px;
+    font-family: myfont;
+    color: rgba(154, 154, 154, 0.75);
+
+}
+
+.borderleft{
+    border-left: 2px solid rgba(14, 14, 14, 0.97);
+}
+
+li{
+    list-style: none;
+
+}
+
+
+
+.nieuwe{
+    justify-content: center;
+    display: flex;
+}
+.nieuwe .nieuweimg{
+    height: auto;
+}
+.nieuwe .text-one{
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    margin-right: 900px;
+    margin-top: 250px;
+
+
+
+}
+.nieuwe .text-two{
+    color: #ffffff;
+    position: absolute;
+    font-size: 20px;
+    margin-right: 870px;
+    margin-top: 350px;
+
+}
+
+
+.games{
+    display: flex;
+    justify-content: center;
+}
+.games-screenshot{
+    margin-top: 50px;
+
+
+}
+
+
+.games-text{
+
+
+}
+.games-header{
+    width: 100%;
+    text-align: center;
+
+}
+.games-p{
+    text-align: center;
+    width: 100%;
+
+}
+.games-links li{
+    flex-wrap:wrap;
+    gap: 10px;
+    color: rgb(16, 124, 16);
+    font-weight: 1000;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+
+
+.deals{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.game-pass{
+    display: flex;
+    padding-left: 150px;
+    margin: 10px;
+    /*!*justify-content: center;;*!*/
+    /*!*width: 100%;*!*/
+}
+
+.game-pass-text{
+    background-color: green;
+    width: 800px;
+
+
+
+
+
+}
+.game-pass-img img{
+    /*display:flex ;*/
+    width: 800px;
+    height: 700px;
+
+
+}
+.game-pass-text img{
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.game-pass-h1{
+    color: white;
+    margin-left: 100px ;
+    font-size: 20px;
+}
+.game-pass-p{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.game-pass-p2{
+    text-decoration: none;
+    background-color: rgb(155, 240, 11);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 100px;
+    width: 220px;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+}
+.foto-gaming img{
+
+    width: 764px;
+    height: 474px;
+    margin-right: 10px;
+
+
+}
+.foto-menu img{
+    width: 764px;
+    height: 474px;
+    margin-left: 10px;
+
+}
+
+
+.gaming-text{
+    display: flex;
+}
+.gaming-text-p1{
+
+    margin-left: 170px;
+}
+.gaming-text-p2{
+    margin-left: 204px;
+}
+.gaming-link{
+    display: flex;
+
+}
+.gaming-link-p1 {
+    margin-left: 170px;
+    color: rgb(16, 124, 16);
+    font-weight: 1000;
+}
+.gaming-link-p2 {
+    margin-left: 585px ;
+    color: rgb(16, 124, 16);
+    font-weight: 1000;
+
+}
+
+
+.cat{
+    display: flex;
+}
+.cat-vid video{
+    width: 	1000px;
+    height:	800px;
+    margin-left: 170px;
+
+}
+.cat-text{
+    margin-top: 300px;
+    margin-left: 40px;
+}
+.cat-text-p2{
+    color: rgb(16, 124, 16);
+    font-weight: 1000;
+}
+
+
+.cat{
+    display: flex;
+}
+.cat-vid video{
+    width: 	1000px;
+    height:	800px;
+    margin-left: 170px;
+
+}
+.cat-text{
+    margin-top: 300px;
+    margin-left: 40px;
+}
+.cat-text-p2{
+    color: rgb(16, 124, 16);
+    font-weight: 1000;
+}
+
+.menu{
+    display: flex;
+}
+.menu-img img{
+    width: 	1000px;
+    height:	550px;
+    margin-left: 50px;
+
+}
+.menu-text-h1{
+    margin-top: 200px;
+    font-size: 35px;
+    margin-left: 100px;
+
+}
+.menu-text-p1{
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.halo{
+    display: flex;
+    margin-top: 30px;
+}
+.halo-img img{
+    width: 	1066px;
+    height:	543px;
+    margin-left: 110px;
+
+}
+.halo-text{
+     margin-top: 150px;
+     margin-left: 50px;
+
+ }
+.halo-text-p2{
+    color: rgb(16, 124, 16);
+    font-weight: 1000;
+
+
+}
+
+
+.sonic{
+    display: flex;
+    margin-top: 40px;
+}
+.sonic-text{
+    margin-top: 150px;
+    margin-left: 160px;
+
+}
+.sonic-text-p2{
+    color: rgb(16, 124, 16);
+    font-weight: 1000;
+
+
+}
+.sonic-img img{
+    width: 	1000px;
+    height:	543px;
+   margin-left: 20px;
+}
+
+
+.disney{
+    display: flex;
+    margin-top: 30px;
+}
+.disney-img img{
+    width: 	1000px;
+    height:	543px;
+    margin-left: 110px;
+
+}
+.disney-text{
+    margin-top: 150px;
+    margin-left: 50px;
+
+}
+.disney-text-p2{
+    color: rgb(16, 124, 16);
+    font-weight: 1000;
+
+
+}
+
+
+.xbox{
+    display: flex;
+    margin-top: 40px;
+}
+.xbox-text{
+    margin-top: 150px;
+    margin-left: 160px;
+    width: 600px;
+
+}
+.xbox-text-p2{
+    color: rgb(16, 124, 16);
+    font-weight: 1000;
+}
+.xbox-img img{
+    width: 	1000px;
+    height:	543px;
+    margin-right: 100px;
+}
+
+
+.console{
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+}
+.console-text-h1{
+    text-align: center;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 130px;
+    font-size: 100px;
+    font-weight: 1000;
+    font-family: myfont;
+    color: rgb(16, 124, 16);
+
+
+}
+.console-parallelogram{
+    position: absolute;
+    margin-left: 805px;
+    margin-top: 990px;
+    transform: translate(-350px,-430px) skewX(-20deg);
+    height: 20px;
+    width: 100px;
+    background-color: rgb(155, 240, 11);
+
+
+}
+.console-text-p{
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 620px;
+    font-size: 16px;
+    background-color: rgb(155, 240, 11);
+    width: 210px;
+    height: 20px;
+    color: rgb(5, 75, 22);
+    padding: 7px;
+    font-family: myfont;
+
+}
+.console-img{
+    width: 1500px;
+    height: 700px;
+    margin-left: 25%;
+
+}
+
+.bar{
+    display: flex;
+    /*background-color: rgb(242, 242, 242);*/
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.bar-div1-list1 li{
+    flex-direction: column;
+    margin: 20px ;
+    font-size:11px;
+}
+.bar-div2-list2 li{
+    flex-direction: column;
+    margin: 20px ;
+    font-size:11px;
+}
+.bar-div3-list3 li{
+    flex-direction: column;
+    margin: 20px ;
+    font-size:11px;
+}
+.bar-div4-list4 li {
+    flex-direction: column;
+    margin: 20px ;
+    font-size:11px;
+}
+
+
+#bar-div1-list1-li1{
+    font-family: myfont ;
+    font-size: 15px;
+
+
+}
+#bar-div2-list2-li1{
+    font-family: myfont;
+    font-size: 15px;
+
+}
+#bar-div3-list3-li1{
+    font-family: myfont;
+    font-size: 15px;
+}
+#bar-div4-list4-li1{
+    font-family: myfont;
+    font-size: 15px;
+}
+
+
+.help-list {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    gap: 35px;
+    margin-top: 10px;
+
+}
+#help-img-earth img{
+    height: 20px;
+
+}
+#help-img-privacy img{
+    height: 30px;
+}
+
+.last{
+    background-color: rgb(242, 242, 242);
+    height: 40px;
+}
+.last-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 13px;
+    margin-left: 480px;
+    padding: 0;
+
+
+}
+.background-color-last{
+    background-color: rgb(242, 242, 242);
+
+
+}
+
+
+
+.header-600px,.nieuwe-600,.games-600, .deals-600,
+.game-pass-600,.games-text-600,
+.gaming-600,.account-600,
+.cat-600,.menu-600,.halo-600,.sonic-600,.disney-600,.xbox-600,
+.console-600,.help-600,.last-600,.background-color-end-600{
+    display: none;
+}
+.header-1450,.nieuwe-1450,.games-1450, .deals-1450,
+.game-pass-1450,.games-text-1450,
+.gaming-1450,.account-1450,
+.cat-1450,.menu-1450,.halo-1450,.sonic-1450,.disney-1450,.xbox-1450,
+.console-1450,.help-1450,.last-1450,.background-color-end-1450{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+
+   .nieuwe, .header, .games, .games-text, .deals,
+   .game-pass, .foto, .gaming-text, .gaming-link, .cat, .menu, .halo,
+   .sonic, .disney, .xbox, .console, .background-color-end,
+   .background-color-end-600{
+       display: none;
+   }
+    .header-1450,.nieuwe-1450,.games-1450, .deals-1450,
+    .game-pass-1450,.games-text-1450,
+    .gaming-1450,.account-1450,
+    .cat-1450,.menu-1450,.halo-1450,.sonic-1450,.disney-1450,.xbox-1450,
+    .console-1450,.help-1450,.last-1450{
+        display: none;
+    }
+
+
+    .header-600px {
+        display: flex;
+
+    }
+         .header-list-600px  div {
+        display: flex;
+        width: 100%;
+
+
+    }
+         .header-list-600px{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+         .header-list-600px img {
+        display: flex;
+        width: 30px;
+
+
+    }
+         .header-list-600px h1{
+        font-size: 25px;
+        margin-top: -5px;
+    }
+         .header-list-600px-li5{
+             margin-left: 60%;
+         }
+    li{
+        list-style: none;
+
+    }
+
+    .nieuwe-600{
+        display: flex;
+
+    }
+         .nieuwe-600 .nieuwe-img-600 {
+        width: 100%;
+
+    }
+         .nieuwe-600 .nieuwe-img-600 img {
+        width: 20%;
+
+    }
+         .nieuwe-600 .text-one-600{
+        position: absolute;
+        color: #ffffff;
+        font-size: 10px;
+        margin-top: 80px;
+        margin-left: 20px;
+
+
+
+
+
+    }
+         .nieuwe-600 .text-two-600{
+        color: #ffffff;
+        position: absolute;
+        font-size: 8px;
+        margin-top: 100px;
+        margin-left: 20px;
+
+
+    }
+
+    .games-600{
+        display: flex;
+        margin-top: 20px;
+
+    }
+         .games-600 .games-screenshot-600 {
+        width: 100%;
+
+    }
+         .games-600 .games-screenshot-600 img {
+        width: 80%;
+        margin-left: 60px;
+
+    }
+
+     .games-text-600{
+         display: block;
+     }
+          .games-header-600{
+        width: 100%;
+        text-align: center;
+    }
+          .games-header-600 h1{
+        font-size: 20px;
+    }
+          .games-p-600{
+        text-align: center;
+        width: 100%;
+    }
+          .games-p-600 p{
+        font-size: 9px;
+
+    }
+          .games-links-600 {
+        display: flex;
+        lex-direction: row;
+    }
+          .games-links-600 li{
+        font-size: 10px;
+        gap: 10px;
+        color: rgb(16, 124, 16);
+        font-weight: 1000;
+        margin-left: 200px;
+        text-align: center;
+
+    }
+
+    .deals-600{
+        font-size: 10px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .game-pass-600{
+        display: block;
+
+    }
+        .game-pass-img-600{
+        width:100%;
+    }
+        .game-pass-img-600 img{
+        width:100%;
+        height: 400px;
+    }
+        .game-pass-text2-600 {
+         background-color: green;
+         width: 100%;
+         height: 400px;
+          }
+        .game-pass-text2-600 img{
+            width: 60%;
+            margin-top: 100px;
+            margin-left: 130px;
+
+    }
+        .game-pass-h1-600{
+        color: white;
+        font-size: 20px;
+            margin-left: 130px;
+          }
+        .game-pass-p-600{
+              color: white;
+              font-size: 15px;
+              text-align: center;
+
+         }
+        .game-pass-p2-600{
+         text-decoration: none;
+         background-color: rgb(155, 240, 11);
+         color: rgb(0, 0, 0);
+         font-size: 30px;
+         width: 240px;
+         font-weight: 500;
+         margin-top: 70px;
+         margin-left: 170px;
+
+         }
+
+    .gaming-600{
+        display: block;
+        margin-top: 20px;
+    }
+        .gaming-foto-600{
+        width: 100%;
+    }
+        .gaming-foto-600 img{
+        width: 100%;
+    }
+        .gaming-text-600{
+        width: 100%;
+
+        }
+        .gaming-text-p2-600{
+        width: 100%;
+            color: rgb(16, 124, 16);
+       }
+
+    .account-600{
+        display: block;
+    }
+         .account-foto-600{
+        width: 100%;
+    }
+         .account-foto-600 img{
+        width: 100%;
+    }
+         #account-text-p2-600{
+        color: rgb(16, 124, 16);
+
+    }
+
+     .cat-600{
+         display: block;
+     }
+    .cat-img-600{
+        width: 100%;
+    }
+    .cat-img-600 img{
+        width: 100%;
+    }
+    .cat-text-p2-600{
+        color: rgb(16, 124, 16);
+
+    }
+
+     .menu-600{
+         display: block;
+     }
+     .menu-img-600{
+         width: 100%;
+
+     }
+    .menu-img-600 img{
+        width: 100%;
+    }
+
+
+    .halo-600{
+        display: block;
+    }
+       .halo-img-600{
+        width: 100%;
+    }
+       .halo-img-600 img{
+        width: 100%;
+    }
+       .halo-text-p2-600{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .sonic-600{
+        display: block;
+    }
+      .sonic-img-600{
+        width: 100%;
+    }
+      .sonic-img-600 img{
+        width: 100%;
+    }
+      .sonic-text-p2-600{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .disney-600{
+        display: block;
+    }
+      .disney-img-600{
+        width: 100%;
+    }
+      .disney-img-600 img{
+        width: 100%;
+    }
+      .disney-text-p2-600{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .xbox-600{
+        display: block;
+    }
+       .xbox-img-600{
+        width: 100%;
+    }
+       .xbox-img-600 img{
+        width: 100%;
+    }
+       .xbox-text-p2-600{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .console-600{
+        display: inline-block;
+        width: 100%;
+    }
+       .console-img-600{
+        width: 100%;
+    }
+       .console-img-600 img{
+        width: 20%;
+    }
+       .console-text{
+        margin-top: -250px;
+        margin-left: 10px;
+
+    }
+       .console-text-h1-600{
+        text-align: center;
+        margin-right: 300px;
+        color: rgb(112, 174, 6);
+    }
+       .console-text-p-600{
+        color: rgb(112, 174, 6);
+        text-align: center;
+        margin-right: 300px;
+
+    }
+
+
+    .background-color-end-600{
+        display: block;
+        margin-top: -50px;
+        background-color: rgba(214, 214, 214, 0.37);
+        width: 100%;
+    }
+       .background-color-end-600 div{
+        display: block;
+
+           width: 100%;
+    }
+       .bar-600{
+        display: block;
+        margin-top: 100px;
+
+    }
+       .bar1-list1-600{
+        font-size: 10px;
+    }
+       #bar1-list1-li1-600{
+        font-size: 20px;
+    }
+
+       .bar2-600{
+        display: block;
+
+    }
+       .bar2-list2-600{
+        font-size: 10px;
+    }
+       #bar2-list2-li1-600{
+        font-size: 20px;
+    }
+
+       .bar3-600{
+        display: block;
+
+    }
+       .bar3-list3-600{
+        font-size: 10px;
+    }
+       #bar3-list3-li1-600{
+        font-size: 20px;
+    }
+
+       .bar4-600{
+        display: block;
+
+    }
+       .bar4-list4-600{
+        font-size: 10px;
+    }
+       #bar4-list4-li1-600{
+        font-size: 20px;
+    }
+
+    .help-600{
+        display: flex;
+        background-color: rgba(214, 214, 214, 0.37);
+        margin-top: -10px;
+    }
+    .help-list-600{
+        display: flex;
+        width: 100%;
+    }
+    .help-list-600 li{
+       width: 20%;
+    }
+    .help-list-600 img{
+        width: 40%;
+    }
+    .help-list-600 p{
+        font-size: 10px;
+        width: 10px;
+        margin-right: 120px;
+        margin-top: -3px;
+    }
+
+    .last-600{
+        display: flex;
+        background-color: rgba(214, 214, 214, 0.37);
+
+    }
+    .last-list-600{
+        display: flex;
+        font-size: 8px;
+    }
+
+
+
+}
+@media only screen and (min-width: 601px) and (max-width: 1450px){
+
+
+    .nieuwe, .header, .games, .games-text, .deals,
+    .game-pass, .foto, .gaming-text, .gaming-link, .cat, .menu, .halo,
+    .sonic, .disney, .xbox, .console, .background-color-end{
+        display: none;
+    }
+    .header-600px,.nieuwe-600,.games-600, .deals-600,
+    .game-pass-600,.games-text-600,
+    .gaming-600,.account-600,
+    .cat-600,.menu-600,.halo-600,.sonic-600,.disney-600,.xbox-600,
+    .console-600,.help-600,.last-600{
+        display: none;
+    }
+
+    .header-1450 {
+        display: flex;
+        width: 100%;
+
+    }
+    .header-list-1450{
+        display: flex;
+    }
+
+    .header-list-1450 div {
+        display: flex;
+        width: 100%;
+
+
+    }
+    .header-list-1450{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+    .header-list-1450 img {
+        display: flex;
+        width: 30px;
+
+
+    }
+    .header-list-1450 h1{
+        font-size: 25px;
+        margin-top: -5px;
+    }
+
+    .header-list-1450-li5{
+        margin-left: 70% ;
+
+    }
+    li{
+        list-style: none;
+
+    }
+
+    .nieuwe-1450{
+        display: flex;
+
+    }
+    .nieuwe-1450 .nieuwe-img-1450 {
+        width: 100%;
+
+    }
+    .nieuwe-1450 .nieuwe-img-1450 img {
+        width: 20%;
+
+    }
+    .nieuwe-1450 .text-one-1450{
+        position: absolute;
+        color: #ffffff;
+        font-size: 100%;
+        margin-top: 12%;
+        margin-left: 10%;
+
+
+
+
+
+    }
+    .nieuwe-1450 .text-two-1450{
+        color: #ffffff;
+        position: absolute;
+        font-size: 90%;
+        margin-top: 16%;
+        margin-left: 10%;
+
+
+    }
+
+    .games-1450{
+        display: flex;
+        margin-top: 20px;
+
+    }
+    .games-1450 .games-screenshot-1450 {
+        width: 100%;
+        margin-left: 20%;
+
+    }
+    .games-1450 .games-screenshot-1450 img {
+        width: 80%;
+    }
+
+    .games-text-1450{
+        display: block;
+    }
+    .games-header-1450{
+        width: 100%;
+        text-align: center;
+    }
+    .games-header-1450 h1{
+        font-size: 100%;
+    }
+    .games-p-1450{
+        text-align: center;
+        width: 100%;
+    }
+    .games-p-1450 p{
+        font-size: 100%;
+
+    }
+    .games-links-1450 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .games-links-1450 li{
+        display: flex;
+        flex-direction: row;
+        font-size: 100%;
+        color: rgb(16, 124, 16);
+        font-weight: 1000;
+        /*text-align: center;*/
+        margin-left: 270%;
+        width: 100%;
+
+
+    }
+
+    .deals-1450{
+        display: block;
+        font-size: 100%;
+        text-align: center;
+    }
+    .deals-1450 h1{
+        width: 100%;
+    }
+
+    .game-pass-1450{
+        display: block;
+        width: 100%;
+
+
+    }
+    .game-pass-img-1450{
+        width:100%;
+    }
+    .game-pass-img-1450 img{
+        width:100%;
+        height: 400px;
+    }
+    .game-pass-text2-1450 {
+        background-color: green;
+        width: 100%;
+        height: 450px;
+    }
+    .game-pass-text2-1450 img{
+        width: 60%;
+        margin-top: 100px;
+        margin-left: 130px;
+
+    }
+    .game-pass-h1-1450{
+        color: white;
+        font-size: 20px;
+        margin-left: 130px;
+    }
+    .game-pass-p-1450{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+
+    }
+    .game-pass-p2-1450{
+        text-decoration: none;
+        background-color: rgb(155, 240, 11);
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        width: 240px;
+        font-weight: 500;
+        margin-top: 70px;
+        margin-left: 170px;
+
+    }
+
+    .gaming-1450{
+        display: block;
+        margin-top: 20px;
+    }
+    .gaming-foto-1450{
+        width: 100%;
+    }
+    .gaming-foto-1450 img{
+        width: 100%;
+    }
+    .gaming-text-1450{
+        width: 100%;
+
+    }
+    .gaming-text-p2-1450{
+        width: 100%;
+        color: rgb(16, 124, 16);
+    }
+
+    .account-1450{
+        display: block;
+    }
+    .account-foto-1450{
+        width: 100%;
+    }
+    .account-foto-1450 img{
+        width: 100%;
+    }
+    #account-text-p2-1450{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .cat-1450{
+        display: block;
+    }
+    .cat-img-1450{
+        width: 100%;
+    }
+    .cat-img-1450 img{
+        width: 100%;
+    }
+    .cat-text-p2-1450{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .menu-1450{
+        display: block;
+    }
+    .menu-img-1450{
+        width: 100%;
+
+    }
+    .menu-img-1450 img{
+        width: 100%;
+    }
+
+
+    .halo-1450{
+        display: block;
+    }
+    .halo-img-1450{
+        width: 100%;
+    }
+    .halo-img-1450 img{
+        width: 100%;
+    }
+    .halo-text-p2-1450{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .sonic-1450{
+        display: block;
+    }
+    .sonic-img-1450{
+        width: 100%;
+    }
+    .sonic-img-1450 img{
+        width: 100%;
+    }
+    .sonic-text-p2-1450{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .disney-1450{
+        display: block;
+    }
+    .disney-img-1450{
+        width: 100%;
+    }
+    .disney-img-1450 img{
+        width: 100%;
+    }
+    .disney-text-p2-1450{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .xbox-1450{
+        display: block;
+    }
+    .xbox-img-1450{
+        width: 100%;
+    }
+    .xbox-img-1450 img{
+        width: 100%;
+    }
+    .xbox-text-p2-1450{
+        color: rgb(16, 124, 16);
+
+    }
+
+    .console-1450{
+        display: inline-block;
+    }
+    .console-img-1450{
+        width: 100%;
+    }
+    .console-img-1450 img{
+        width: 20%;
+    }
+    .console-text{
+        margin-top: -250px;
+        margin-left: 10px;
+
+    }
+    .console-text-h1-1450{
+        text-align: center;
+        margin-right: 300px;
+        color: rgb(112, 174, 6);
+    }
+    .console-text-p-1450{
+        color: rgb(112, 174, 6);
+        text-align: center;
+        margin-right: 300px;
+
+    }
+
+
+    .background-color-end-1450{
+        display: flex;
+        margin-top: -50px;
+    }
+    .background-color-end-1450 div{
+        display: flex;
+    }
+    .bar-1450{
+        display: block;
+        margin-top: 100px;
+
+    }
+    .bar1-list1-1450{
+        font-size: 10px;
+    }
+    #bar1-list1-li1-1450{
+        font-size: 20px;
+    }
+
+    .bar2-1450{
+        display: block;
+
+    }
+    .bar2-list2-1450{
+        font-size: 10px;
+    }
+    #bar2-list2-li1-1450{
+        font-size: 20px;
+    }
+
+    .bar3-1450{
+        display: block;
+
+    }
+    .bar3-list3-1450{
+        font-size: 10px;
+    }
+    #bar3-list3-li1-1450{
+        font-size: 20px;
+    }
+
+    .bar4-1450{
+        display: block;
+
+    }
+    .bar4-list4-1450{
+        font-size: 10px;
+    }
+    #bar4-list4-li1-1450{
+        font-size: 20px;
+    }
+
+    .help-1450{
+        display: flex;
+    }
+    .help-list-1450{
+        display: flex;
+        width: 100%;
+    }
+    .help-list-1450 li{
+        width: 20%;
+    }
+    .help-list-1450 img{
+        width: 40%;
+    }
+    .help-list-1450 p{
+        font-size: 10px;
+        width: 10px;
+        margin-right: 120px;
+        margin-top: -3px;
+    }
+
+    .last-1450{
+        display: flex;
+    }
+    .last-list-1450{
+        display: flex;
+        font-size: 8px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+

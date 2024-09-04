@@ -1,0 +1,22 @@
+
+.header-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#header-1{
+    position: absolute;
+    width: 100px;
+
+
+}
+#header-2{
+    position: absolute;
+    min-width: 50%;
+
+
+}
+#header-1
+#header-1
+#header-1
